@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekart|product</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">EKart</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="registration.html">register</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login.html">login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">logout</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown link
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li> -->
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+
+
+        </div><!--  header section end or 1 row end -->
+        <div class="row mt-4">
+          <div class="col md-3 bg-light p-3" >
+            <!-- Filter & sorting -->
+            <h5>Filter By Category</h5><hr>
+            <p><a href="#" class="anchore">All</a></p>
+            <p><a href="#" class="anchore">Mobile</a></p>
+            <p><a href="#" class="anchore">Cloth</a></p>
+            <p><a href="#" class="anchore">Shose</a></p>
+            <br>
+
+            <h5> Filter by price</h5><hr>
+            <form method="GET">
+              <div class="mb-3">
+                <label for="Input1" class="form-label">Min</label>
+                <input type="number" class="form-control" id="Input1" >
+              </div>
+              <div class="mb-3">
+                <label for="Input2" class="form-label">max</label>
+                <input type="number" class="form-control" id="Input2" >
+              </div>
+              <div class="mb-3">
+                <input type="submit" class="btn btn-danger" value="search">
+              </div>
+            </form>
+
+            <h5> Sort by price </h5><hr>
+              <p><a href="#" class="anchore">High to low</a></p>
+              <p><a href="#" class="anchore">Low to High</a></p>
+
+
+          </div> <!--  side bar end -->
+          <div class="col-md-9 bg-light p-3">
+            <!-- product list -->
+            <div class="row">
+            <div class="col-md-3">
+              <div class="card" style="width: 100%;">
+                <img src="static/images/30150c51-9350-466b-9408-df7cc7b01ffc.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">product 1</h5>
+                  <p class="card-text">product 1 details</p>
+                  <p class="card-text">price</p>
+                  <a href="product_details.html" class="btn btn-danger">see details</a>
+                </div>
+              </div>
+            </div><!-- product 1 end  -->
+            <div class="col-md-3">
+              <div class="card" style="width: 100%;">
+                <img src="static/images/9714abb9-1065-41ef-b191-00cb332af3cf.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">product 2</h5>
+                  <p class="card-text">product 2 details</p>
+                  <p class="card-text">price</p>
+                  <a href="product_details.html" class="btn btn-danger">see details</a>
+                </div>
+              </div>
+            </div><!-- product 2 end  -->
+            <div class="col-md-3">
+              <div class="card" style="width: 100%;">
+                <img src="static/images/air-jordan-1-mid-shoes-SQf7DM.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">product 3</h5>
+                  <p class="card-text">product 3 details</p>
+                  <p class="card-text">price</p>
+                  <a href="product_details.html" class="btn btn-danger">see details</a>
+                </div>
+              </div>
+            </div><!-- product 3 end  -->
+            <div class="col-md-3">
+              <div class="card" style="width: 100%;">
+                <img src="static/images/air-jordan-1-low-shoes-6Q1tFM.jfif" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">product 4</h5>
+                  <p class="card-text">product 4 details</p>
+                  <p class="card-text">price</p>
+                  <a href="product_details.html" class="btn btn-danger">see details</a>
+                </div>
+              </div>
+            </div><!-- product 4 end  -->
+          </div><!--  product list end -->
+        </div>
+        </div><!--  Main section end or 2 row end -->
+
+
+
+
+        <div class="row mt-4 bg-secondary bg-gradient">
+          <div class="col-md-4 p-3">
+            <h5>Address</h5><hr>
+            2nd Floor,landmark building <br>
+            near F.C. road, <br>
+            pune-411002,<br>
+            maharashtra,<br>
+            Contact: 7387981704
+          </div><!--  Address end -->
+          <div class="col-md-4 p-3">
+            <h5>Quick Link</h5><hr>
+            <a href="index.html" class="anchore"><strong>HOME</strong></a><br>
+            <a href="about.html" class="anchore"><strong>ABOUT</strong></a><br>
+            <a href="contant.html" class="anchore"><strong>CONTACT</strong></a><br>
+
+          </div><!--  Quick Link end -->
+          <div class="col-md-4 p-3">
+            <!-- <h5>Social Media</h5> -->
+            <h5>Contact us</h5><hr>
+            <h5><a href=""><i class="bi bi-facebook"></i></a></h5>
+            <h5><a href=""><i class="bi bi-twitter"></i></a></h5>
+            <h5><a href=""><i class="bi bi-linkedin"></i></a></h5>
+          </div><!--  Social Media end -->
+          
+        </div><!--  Footer section end or 3 row end -->
+      </div>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/popper.js"></script>
+
+</body>
+</html>
